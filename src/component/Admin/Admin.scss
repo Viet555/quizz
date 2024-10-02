@@ -1,0 +1,58 @@
+.admin-container {
+    .admin-sidebar {
+        .sidenav---sidenav---_2tBP {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1006;
+            min-width: 64px;
+            background-color: rgba(0, 0, 0, 0.8);
+            /* Màu đen với độ trong suốt 50% */
+            transition: min-width 0.2s;
+
+        }
+
+        .sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL {
+            min-width: 240px;
+            border-radius: 0 20px 20px 0;
+        }
+
+    }
+
+    .admin-content {
+        margin-left: 4rem;
+        width: 95%;
+
+        .header-content {
+            border: 1px solid forestgreen;
+
+            height: 40px;
+        }
+
+        .main-main {}
+    }
+}
+
+
+.dropdown-menu.show {
+    display: block;
+    background-color: #5656d8;
+    width: 241px;
+
+}
+
+.footer-nav {
+    margin-top: 420px;
+    border-top: 2px solid rgba(179, 155, 155, 0.255);
+
+    span {
+
+        color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+}
